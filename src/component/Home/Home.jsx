@@ -9,7 +9,7 @@ const Home = () => {
     const [allActors, setAllActors] = useState([]);
 
     useEffect(() => {
-        fetch('../../../public/Data.json')
+        fetch('/Data.json')
             .then(res => res.json())
             .then(data => setAllActors(data))
     }, [])
