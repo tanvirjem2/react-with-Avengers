@@ -71,7 +71,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="w-1/3 border-2">
+            <div className="w-1/3 border-2 rounded-lg">
                 <Cart selectedActors={selectedActors} totalCost={totalCost} remaining={remaining}></Cart>
             </div>
 
