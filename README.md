@@ -50,10 +50,6 @@ Follow these steps to set up and run the project locally:
 
 Contributions are welcome! Follow the standard GitHub fork and pull request workflow.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - Inspired by the Avengers franchise and budget management applications.
