@@ -1,20 +1,61 @@
 # React with Avengers
 
-Welcome to the "react-with-Avengers" project! This is a simple calculation-related project where you can select and calculate the costs associated with hiring Avengers actors for your project. The primary goal is to stay within the specified budget of $20,000.
+## Overview
+
+"react-with-Avengers" is a simple calculation-related project that allows users to assemble their own Avengers team while staying within a specified budget.
 
 ## Features
 
-### Actor Selection
+- **Budget Limit:** The project has a budget limit of $20,000.
+- **Cost Calculation:** Real-time calculation of the total cost as actors are added or removed.
+- **Error Handling:** Displays an error message if the total cost exceeds the $20,000 limit.
 
-- Choose your favorite Avengers actors for your project.
-- Each actor has a predefined cost associated with their participation.
+## Getting Started
 
-### Cost Calculation
+Follow these steps to set up and run the project locally:
 
-- Dynamically calculates the total cost based on the selected Avengers actors.
-- Ensures that the total cost does not exceed the budget limit of $20,000.
+1. Clone the repository:
 
-### Budget Error Handling
+    ```bash
+    git clone https://github.com/your-username/react-with-Avengers.git
+    ```
 
-- Displays an error message if the total cost exceeds the budget limit.
-- Notifies you that adjustments are needed to stay within the budget.
+2. Install dependencies:
+
+    ```bash
+    cd react-with-Avengers
+    npm install
+    ```
+
+3. Run the application:
+
+    ```bash
+    npm start
+    ```
+
+    Access the application at `http://localhost:3000` in your web browser.
+
+## Usage
+
+1. Navigate to the application.
+2. Browse and add Avengers actors to your team.
+3. Monitor the real-time total cost.
+4. Receive an error if the total cost exceeds $20,000.
+
+## Technologies Used
+
+- React
+
+## Contributing
+
+Contributions are welcome! Follow the standard GitHub fork and pull request workflow.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Inspired by the Avengers franchise and budget management applications.
+
+Happy assembling! 🦸‍♂️💻
